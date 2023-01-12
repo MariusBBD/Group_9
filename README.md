@@ -3,9 +3,10 @@
 * ## Java
 # Styleguide rules for project.
 * ### Declarations
-* * Imports / include on top of file
+* * Each declaration should be on its own line.
 * * In class first variables declaration before methods/ functions.
-* * Declare all variables on top of class or functions.
+* * Declare variables as locally as possible.
+* * Variables must be initialised with a meaningful value when being declared.
 * ### Brackets
 * * Same line curly bracket.
 * * Space before curly bracket.
@@ -14,13 +15,15 @@
 * * Variable names are written in lowerCamelCase.
 * * Class names are written in UpperCamelCase.
 * * Constant names use UPPER_SNAKE_CASE: all uppercase letters, with each word separated from the next by a single underscore.
+* * Functions should be named according to their behavior. For instance, a function that return the age should be named GetAge().
 * ### White spaces
 * * One open line between functions.
 * * No white space before semicolon.
 * * On math functionality, white spaces between variables and operators.
-* * Use indentation 4 spaces or a tab.
+* * Use indentation 4 spaces.
 * ### Comments
 * * Only comments are allowed on complicated function.
+* * Do not comment out code, delete it.
 * ### Functions.
 * * Single function responsibilities.
 * * Line limits in functions 20 lines
